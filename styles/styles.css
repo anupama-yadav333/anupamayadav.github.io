@@ -1,0 +1,86 @@
+body{
+	background-image:    url(../images/background.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+.container{
+
+}
+#resumeHeader{
+	display: inline-block;
+}
+#resumeBody{
+	background-color: #eeeade;
+}
+#name{
+    font-family: 'Acme', sans-serif;
+    color: #031836;
+    padding: 0px 0px 10px 0px;
+}
+#name h3{
+	font-size: 45px;
+	text-align: left;
+}
+#name h5{
+	font-size: 20px;
+	text-align: left;
+}
+#profileTabs{
+
+}
+.nav a{
+	padding: 80px 50px 10px 0px;
+	float: left;
+	text-align: center;
+	bottom: 0;
+	overflow: hidden;
+	font-size: 20px;
+	font-family: 'Acme', sans-serif;
+	text-decoration: none;
+	color: #031836;
+}
+.nav a:hover {
+	color: #f6546a;
+}
+#profileImage{
+	padding: 30px 20px 30px 20px;
+	position: flex;
+	margin: auto;
+}
+#profileImageShape img{
+	max-width: 80%;
+	max-height: 100%;
+	border-radius: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+}
+#profileDetails{
+	padding: 30px 20px 30px 20px;
+	font-family: 'Acme', sans-serif;
+}
+#profileDetails div.navContent {
+	display: none;
+}
+#profileDetails p{
+	text-align: justify;
+	width: 80%;
+}
+#resumePdf{
+	padding: 20px 0px 0px 0px;
+	color: #031836;
+	font-size: 20px;
+	font-family: 'Acme', sans-serif;
+}
+#resumeBottom{
+	background-color: #f6546a;
+}
+#resumeBottom span{
+	padding: 30px 0px 0px 0px;
+	color: #3be3e4;
+}
+#resumeBottom p{
+	text-align: left;
+	padding: 30px 0px 0px 0px;
+	color: #ffffff;
+}
