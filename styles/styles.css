@@ -84,3 +84,12 @@ body{
 	padding: 30px 0px 0px 0px;
 	color: #ffffff;
 }
+.socialmedia .fa-github:hover{
+	color: #171516;
+}
+.socialmedia .fa-linkedin:hover{
+	color: #0077B5;
+}
+.socialmedia .fa-google-plus:hover{
+	color: #d34836;
+}
