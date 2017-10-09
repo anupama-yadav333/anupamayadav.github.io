@@ -72,16 +72,15 @@ body{
 	font-size: 20px;
 	font-family: 'Acme', sans-serif;
 }
-#resumeBottom{
+#footer{
 	background-color: #f6546a;
 }
-#resumeBottom span{
-	padding: 30px 0px 0px 0px;
-	color: #3be3e4;
+.socialmedia{
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+	font-size: 25px;
 }
-#resumeBottom p{
-	text-align: left;
-	padding: 30px 0px 0px 0px;
+.socialmedia a{
 	color: #ffffff;
 }
 .socialmedia .fa-github:hover{
