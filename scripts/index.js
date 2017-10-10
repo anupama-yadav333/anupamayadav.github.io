@@ -6,3 +6,6 @@ $(".nav .nav-link").on("click", function(event){
 	event.preventDefault();
 });
 $(".nav .nav-link.active").trigger("click");
+function callDate(){
+	document.getElementById("date").innerHTML= new Date().toDateString();
+}
